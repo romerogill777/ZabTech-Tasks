@@ -1,0 +1,80 @@
+.top {
+    background: linear-gradient(skyblue, blue);
+}
+
+.top a {
+    color: white;          
+    text-decoration: none; 
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.top a:hover {
+    color: yellow;
+}
+
+.top a:visited {
+    color: lightgray;
+}
+body {
+    margin: 0;
+    font-family: Arial;
+}
+ul{
+   
+    
+    
+}
+.top {
+    width: 100%;
+    height: 60px;
+
+}
+
+.top ul {
+    margin: 0;
+    padding: 0;
+}
+
+.top ul li {
+    float: left;         
+    padding: 20px;
+    align:center;
+}
+
+
+
+
+.container {
+    width: 100%;
+}
+
+
+.left {
+    width: 20%;
+    height: 86vh;
+    background-color: lightgreen;
+    float: left;
+    text-align: center;
+   
+}
+
+
+.center {
+    width: 60%;
+   height: 86vh;
+    background-color: lightgray;
+    float: left;
+    text-align: center;
+
+}
+
+.right {
+    width: 20%;
+    height: 86vh;
+    background-color: lightcoral;
+    float: left;
+    text-align: center;
+   
+}
+

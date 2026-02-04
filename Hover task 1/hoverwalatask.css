@@ -1,0 +1,62 @@
+
+.btn {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+}
+
+.btn:hover {
+    background-color: red;
+}
+
+.link {
+    color: black;
+}
+
+.link:visited {
+    color: green;
+}
+
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.box1 { opacity: 1; }
+.box2 { opacity: 0.9; }
+.box3 { opacity: 0.8; }
+
+/* TASK 3 */
+.overflow-hidden {
+    width: 200px;
+    height: 60px;
+	box-shadow: 15px 15px 20px red;
+    border: 3px solid purple;
+    overflow: hidden;
+}
+
+.overflow-scroll {
+	background-color: yellow;
+    width: 200px;
+    height: 60px;
+	box-shadow: 15px 15px 20px red;
+    border: 3px solid purple;
+    overflow: scroll;
+}
+
+/* TASK 4 */
+.card {
+    width: 200px;
+    padding: 15px;
+	color:white;
+	background-color: black;
+    box-shadow: 15px 15px 20px red;
+}

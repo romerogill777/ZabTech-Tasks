@@ -1,0 +1,101 @@
+
+.block {
+    display: block;
+    background-color: violet;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.inline {
+    display: inline;
+    background-color: lightgreen;
+    padding: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+
+.box {
+    text-align: center;
+    background-color: goldenrod;
+    margin: 25px;
+    padding: 25px;
+    width: 50px;
+}
+
+
+.float-left {
+    float: left;
+    width: 50%;
+    background-color: pink;
+    padding: 15px;
+}
+
+.float-right {
+    float: right;
+    width: 50%;
+    background-color: lightgray;
+    padding: 15px;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.text-style {
+    text-align: center;
+    font-size: 18px;
+    font-family: fantasy;
+    color: blue;
+}
+
+
+.bg {
+    background-image: url(./2024-Lamborghini-Revuelto-10-A_o.jpg );
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: aquamarine; 
+    height: 350px;
+    padding-top: 20px;
+}
+
+
+.align-left {
+    text-align: left;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.custom-list {
+    list-style: none;
+    color: yellowgreen
+    ;
+}
+
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: lightblue;
+}

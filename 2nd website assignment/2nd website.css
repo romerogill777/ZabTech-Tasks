@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    font-family: Arial;
+    background: linear-gradient( #203a43, #2c5364);
+}
+
+/* NAVBAR */
+.navbar {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.4);
+}
+
+.logo {
+    display: inline-block;
+    font-size: 22px;
+    font-weight: bold;
+    color: #ff7a18;
+}
+
+.menu {
+    float: right;
+}
+
+   .menu a {
+    color: #e0f7fa;
+    text-decoration: none;
+}
+.menu a:hover {
+    color: #00e5ff;
+}
+
+
+
+/* HERO */
+.main {
+    background: linear-gradient(#141e30, #243b55);
+    color: white;
+    text-align: center;
+    padding: 80px;
+    box-shadow: 0px 2px 40px;
+}
+
+
+.main button {
+    padding: 10px 20px;
+    background-color: #00e5ff;
+    color: black;
+    border: none;
+    cursor: pointer;
+}
+.main button:hover{
+   background-color: #18ffff;
+}
+.title {
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.services {
+    text-align: center;
+    margin: 20px;
+}
+
+.service-box {
+    background-color: #111;
+    color: white;
+    display: inline-block;
+    width: 200px;
+    height: 180px;
+    background-color: #111;
+    color: white;
+    padding: 25px;
+    margin: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 229, 255, 0.4);
+    border-radius: 40px;
+    vertical-align: top; 
+}
+
+
+.service-box img {
+    width: 60px;
+}
+.service-box:hover{
+    transform: scale(1.1) translateY(2px)translateX(2px);
+    border-radius: 20%;
+    transition: all;
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+    box-shadow: 0px 0px 30px rgba(0, 229, 255, 0.8);
+}
+
+.portfolio {
+    background: linear-gradient(#1c1c1c, #2a2a2a);
+    color: #00e5ff;
+    padding: 40px;
+    text-align: center;
+}
+.portfolio{
+    box-shadow: 0px 0px 40px white;
+}
+
+.portfolio-items {
+    margin-top: 20px;
+}
+
+.work-box {
+    display: inline-block;
+    background-color: #111;
+    color: white;
+    box-shadow: 0px 0px 15px rgba(0, 229, 255, 0.4);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 15%;
+}
+.work-box:hover{
+    transition: all;
+   transform: scale(1.1) translateY(-8px);
+   box-shadow: 0px 0px 30px rgba(0, 229, 255, 0.8);
+    transition-duration: 1s;
+    transition-delay: 0.1s;
+}
+
+.work-box img {
+    width: 200px;
+    height: 120px;
+    overflow: hidden;   
+}
+
+ .testimonial {
+    background-color: rgba(0, 229, 255, 0.3);
+    padding: 40px;
+   text-align: center;
+    box-shadow: 0px 4px 10px gray;
+}
+
+/* FOOTER */
+.footer {
+   background-color: #000;
+    color: #00e5ff;
+    padding: 30px;
+    box-shadow: 0px -10px 30px rgba(0, 229, 255, 0.3);
+}
+
+
+.footer-box {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    margin: 10px;
+}
